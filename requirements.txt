@@ -19,6 +19,7 @@ pycodestyle==2.12.1
 pyflakes==3.2.0
 pylint==3.3.1
 PyYAML==6.0.2
+SQLAlchemy==2.0.35
 tomli==2.0.2
 tomlkit==0.13.2
 typing_extensions==4.12.2
