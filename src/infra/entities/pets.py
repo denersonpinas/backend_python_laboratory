@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, Enum
 from src.infra.config import Base
-from .animalTypes import AnimalTypes
+from .animal_types import AnimalTypes
 
 
 class Pets(Base):
