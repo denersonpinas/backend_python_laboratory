@@ -27,6 +27,6 @@ def test_insert_user():
         conn.execute(text("DELETE FROM users WHERE id='{}';".format(new_user.id)))
         conn.commit()
 
-    assert new_user.id == 1
+    assert new_user.id == query_user.id
     assert new_user.name == query_user.name
     assert new_user.password == query_user.password
