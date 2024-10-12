@@ -22,6 +22,7 @@ Instale as bibliotecas necessárias executando o comando:
 
 ```bash
 python3 -m pip install -r requirements.txt
+pre-commit install
 ```
 
 ### Criar o banco de dados
