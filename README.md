@@ -23,3 +23,12 @@ Instale as bibliotecas necessárias executando o comando:
 ```bash
 python3 -m pip install -r requirements.txt
 ```
+
+### Criar o banco de dados
+```bash
+python3
+from src.infra import *
+db_conn = DBConnectionHandler()
+engine = db_conn.get_engine()
+Base.metadata.create_all(engine)
+```
